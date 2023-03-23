@@ -13,7 +13,7 @@ public class principal {
         int i = 0;
 
         do {
-            respuesta = Integer.parseInt(JOptionPane.showInputDialog(null, "1.-Leer \n 2.-Imprimir \n 3.-Buscar por nombre \n 4.-Salir \n elegir opcion"));
+            respuesta = Integer.parseInt(JOptionPane.showInputDialog(null, "1.-Ingresar datos \n 2.-Imprimir \n 3.-Buscar por nombre \n 4.-Salir \n elegir opcion"));
 
             switch (respuesta) {
                 case 1:
